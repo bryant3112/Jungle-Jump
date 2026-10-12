@@ -2,13 +2,13 @@
 
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
-uid="uid://dwgcaa0q16610"
-path="res://.godot/imported/enemy_hit.ogg-b951de0110690c455495d0360968b448.oggvorbisstr"
+uid="uid://0x36imitmjfb"
+path="res://.godot/imported/enemy_hit.ogg-34e493719a0dd2ebf6beb7132564b269.oggvorbisstr"
 
 [deps]
 
-source_file="res://assets/audio/enemy_hit.ogg"
-dest_files=["res://.godot/imported/enemy_hit.ogg-b951de0110690c455495d0360968b448.oggvorbisstr"]
+source_file="res://enemy_hit.ogg"
+dest_files=["res://.godot/imported/enemy_hit.ogg-34e493719a0dd2ebf6beb7132564b269.oggvorbisstr"]
 
 [params]
 

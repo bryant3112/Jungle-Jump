@@ -2,13 +2,13 @@
 
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
-uid="uid://0k12smxu6w0h"
-path="res://.godot/imported/Grasslands Theme.ogg-4e1b1b74724525d6e433c6319cbad86b.oggvorbisstr"
+uid="uid://cewawsf3ar1l6"
+path="res://.godot/imported/Grasslands Theme.ogg-fa7c7db467a70fa1675e7ef6d200d0e3.oggvorbisstr"
 
 [deps]
 
-source_file="res://assets/audio/Grasslands Theme.ogg"
-dest_files=["res://.godot/imported/Grasslands Theme.ogg-4e1b1b74724525d6e433c6319cbad86b.oggvorbisstr"]
+source_file="res://Grasslands Theme.ogg"
+dest_files=["res://.godot/imported/Grasslands Theme.ogg-fa7c7db467a70fa1675e7ef6d200d0e3.oggvorbisstr"]
 
 [params]
 

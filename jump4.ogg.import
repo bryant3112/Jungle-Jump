@@ -2,13 +2,13 @@
 
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
-uid="uid://cnmtgqiun2gco"
-path="res://.godot/imported/jump4.ogg-9dc97d80cb87e847d2f8414b8a59c578.oggvorbisstr"
+uid="uid://bphgonqidkkyv"
+path="res://.godot/imported/jump4.ogg-adef1daa5e161cf88c852a54ce5ab68a.oggvorbisstr"
 
 [deps]
 
-source_file="res://assets/audio/jump4.ogg"
-dest_files=["res://.godot/imported/jump4.ogg-9dc97d80cb87e847d2f8414b8a59c578.oggvorbisstr"]
+source_file="res://jump4.ogg"
+dest_files=["res://.godot/imported/jump4.ogg-adef1daa5e161cf88c852a54ce5ab68a.oggvorbisstr"]
 
 [params]
 

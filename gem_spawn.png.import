@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b0w8vxeqdexyx"
-path="res://.godot/imported/gem_spawn.png-c50be4eaa52e16b7ca2399cec6e65683.ctex"
+uid="uid://6r1322l7ndst"
+path="res://.godot/imported/gem_spawn.png-02e09f6b9d374faa702c2fb3c79ad033.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/gem_spawn.png"
-dest_files=["res://.godot/imported/gem_spawn.png-c50be4eaa52e16b7ca2399cec6e65683.ctex"]
+source_file="res://gem_spawn.png"
+dest_files=["res://.godot/imported/gem_spawn.png-02e09f6b9d374faa702c2fb3c79ad033.ctex"]
 
 [params]
 
