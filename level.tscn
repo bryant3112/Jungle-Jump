@@ -1,0 +1,41 @@
+[gd_scene format=4 uid="uid://b3qdw0smjssmt"]
+
+[ext_resource type="Texture2D" uid="uid://c74m2qnljojh0" path="res://assets/environment/middle.png" id="1_0b4ue"]
+[ext_resource type="Texture2D" uid="uid://elfqj4ni4jxs" path="res://assets/environment/back.png" id="2_f2txt"]
+[ext_resource type="Texture2D" uid="uid://lqals8v555pu" path="res://assets/player_sheet.png" id="3_1ainy"]
+[ext_resource type="Texture2D" uid="uid://ldtssxu78xc3" path="res://assets/environment/props.png" id="4_n6hdu"]
+[ext_resource type="Texture2D" uid="uid://dlu3lc2egdqu8" path="res://assets/environment/tileset.png" id="5_f2txt"]
+[ext_resource type="TileSet" uid="uid://dhxw3f8l2saqn" path="res://assets/tilesets/tiles_world.tres" id="6_1ainy"]
+[ext_resource type="PackedScene" uid="uid://odvf1m5x3ba6" path="res://player.tscn" id="7_n6hdu"]
+
+[node name="Level" type="Node2D" unique_id=2082625405]
+metadata/_edit_vertical_guides_ = [-816.0, -797.0]
+
+[node name="Middle" type="Sprite2D" parent="." unique_id=50645301]
+visible = false
+texture = ExtResource("1_0b4ue")
+
+[node name="Back" type="Sprite2D" parent="." unique_id=816700503]
+position = Vector2(-976.00006, -425.99997)
+scale = Vector2(4.5989575, 3.4833333)
+texture = ExtResource("2_f2txt")
+centered = false
+
+[node name="PlayerSheet" type="Sprite2D" parent="." unique_id=895407906]
+visible = false
+texture = ExtResource("3_1ainy")
+
+[node name="Props" type="Sprite2D" parent="." unique_id=2122816466]
+visible = false
+texture = ExtResource("4_n6hdu")
+
+[node name="Tileset" type="Sprite2D" parent="." unique_id=290202449]
+visible = false
+texture = ExtResource("5_f2txt")
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=453651508]
+tile_map_data = PackedByteArray("AADl/wsAAAADAAEAAADm/wsAAAADAAEAAADn/wsAAAADAAEAAADo/wsAAAADAAEAAADp/wsAAAADAAEAAADq/wsAAAADAAEAAADr/wsAAAADAAEAAADs/wsAAAADAAEAAADp/wcAAAADAAEAAADq/wcAAAADAAEAAADs/wcAAAADAAEAAADr/wcAAAADAAEAAADt/wcAAAADAAEAAAA=")
+tile_set = ExtResource("6_1ainy")
+
+[node name="Player" parent="." unique_id=1919471686 instance=ExtResource("7_n6hdu")]
+position = Vector2(-341, -150)
