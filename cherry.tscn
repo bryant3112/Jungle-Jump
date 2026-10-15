@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://kohpnhpnqcrb"]
+
+[ext_resource type="Texture2D" uid="uid://d137sab5gyorg" path="res://cherry.png" id="1_8pvkm"]
+[ext_resource type="Script" uid="uid://c0ekcb3hhf3se" path="res://cherry.gd" id="1_ht0rm"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_jxj5q"]
+
+[node name="Cherry" type="Area2D" unique_id=153074595]
+script = ExtResource("1_ht0rm")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1607125867]
+texture = ExtResource("1_8pvkm")
+hframes = 5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1334910149]
+shape = SubResource("CircleShape2D_jxj5q")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
